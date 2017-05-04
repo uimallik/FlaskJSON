@@ -1,4 +1,4 @@
-bFROM ubuntu:latest
+FROM ubuntu:latest
 
 MAINTAINER Mallikarjun
 

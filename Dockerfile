@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+webFROM ubuntu:latest
 
 MAINTAINER Mallikarjun
 
@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
 
-CMD ["app.py"]
+CMD ["web/app.py"]

@@ -1,5 +1,5 @@
-docker build --no-cache --tag flask:latest --file Dockerfile .
-docker tag flask bashokku/flask
-docker push docker.io/bashokku/flask
+docker build --no-cache --tag flaskapp:latest --file Dockerfile .
+docker tag flaskapp bashokku/flaskapp
+docker push bashokku/flaskapp
 #docker push bashokku/flask
 #tesr

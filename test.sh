@@ -7,7 +7,7 @@ a=$(sed -e 's/\(^.*(\)\(.*\)\(%.*$\)/\2/' /var/go/errorlog)
 echo $a
 var=$(echo $a 0 | awk '{print $1 + $2}')
 echo $var
-if [ $var == 0 ]
+if [ $var -eq 0 ];
 then
 echo "insideif"
 echo "var val" $var
